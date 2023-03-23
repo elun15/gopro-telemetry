@@ -1,3 +1,6 @@
+########################
+# CODE by elg 03/2023 
+########################
 import os
 import sys
 
@@ -15,8 +18,8 @@ video_path = os.path.join("./src", video_name)
 path_video_json = os.path.join(video_path, video_name + '-full-telemetry.json')
 path_video_avi = os.path.join(video_path, video_name + '.MP4')
 
-flag_save_telemetry = 0
-flag_extract_frames = 0
+flag_save_telemetry = 1
+flag_extract_frames = 1
 flag_save_interp_trajectory = 1
 flag_save_frames_with_trajectory_azi = 1
 
