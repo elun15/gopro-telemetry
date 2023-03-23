@@ -1,0 +1,9 @@
+ TO CREATE THE JSON FROM THE VIDEO FILE
+
+Change in full-telemetry.js the paths of the video to process and the json to generate, then run:
+
+>>  node full-telemetry.js 
+
+
+Source: https://www.trekview.org/blog/2022/gopro-telemetry-exporter-getting-started/
+
